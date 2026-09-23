@@ -1,104 +1,65 @@
+<div align="center">
 
+# 李卓扬 · Aktive
 
+地质工程本科，现在写代码、搭 AI 工作流。
 
+大概是个人类。
 
-#李卓扬 · 活跃
+[![作品集](https://img.shields.io/badge/完整作品集-D4A24E?style=flat-square&logo=safari&logoColor=white)](https://li-zhuoyang-ai-product-builder.zhuangli410.chatgpt.site)
+[![Email](https://img.shields.io/badge/aktives%40foxmail.com-0969DA?style=flat-square&logo=maildotru&logoColor=white)](mailto:aktives@foxmail.com)
+[![SG Agent](https://img.shields.io/badge/有想知道的事-问它-2F81F7?style=flat-square&logo=openai&logoColor=white)](https://gongfu.youjixiezuo.top/#ask)
 
-**大概是个人类**
-
-
-[作品集](https://img.shields.io/badge/完整作品集-在线访问-D4A24E?style=for-the-badge&logo=safari&logoColor=white)(https://li-zhuoyang-ai-product-builder.zhuangli410.chatgpt.site)
-[][![邮箱](https://img.shields.io/badge/aktives%40foxmail.com-联系我-0969DA?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:aktives@foxmail.com)
-[![微信](https://img.shields.io/badge/lzy1152414492-微信-07C160?style=for-the-badge&logo=wechat&logoColor=white)](https://img.shields.io/badge/lzy1152414492-微信-07C160?style=for-the-badge&logo=wechat&logoColor=white) (#)
-
-
-
----
-
-##🧭 当前在进行什么工作
-
-**有迹** — 自由设计师的协作与履约平台。
-用户说一句"帮我做个 logo"，AI 接单 Agent 会替他把范围、修改次数、付款节点问清楚，生成一份能签的合作方案，再留痕跟进。
-``AI代理` · `履约证据链` · `小程序 / 公众号 / 小红书已上线`
-
-道藏 — 35卷古籍，从扫描页到Agent可用的知识库。
-竖排繁体 OCR → 阅读顺序重建 → 繁简映射与专名保护 → 人工复核队列，31,115 页 → 约 500 万字 → SQLite FTS5 检索。**零 embedding 成本。**
-``OCR` · ``SQLite FTS5` · ``本地 RAG```
-
-**人生副本** —— 将一个人的一生拆分成可执行的工作流。
-剧本 → 角色母版 → 年龄参考 → 场景锚点 → 镜头提示 → 逐镜质检，150 个镜头级提示词，专治 AI 影像里最难缠的人物漂移。
-``提示工程` · ``批量生成图片` · ``质量检查交接`"
+</div>
 
 ---
 
-📦 仓库
+## 目前在做
 
-|仓库|它是什么|
-| :-- | :-- |
-| **[闲着 · Xianzhe](https://github.com/zhuangli410-commits/xianzhe)** <br>`Swift` `Metal` | 将当前应用程序的图标处理成具有厚度的实体模型，然后为其添加光照效果。手电筒和蜡烛是**真实的几何模型**，而非表情符号，蜡烛会燃烧殆尽，太阳每四分钟东升西落一次 |
-[图片备忘站](https://github.com/zhuangli410-commits/image-memo-board)  
-Electron | macOS  
+**有迹 YOUJI**（小程序和公众号已上线）
 
-截图黑洞。浮窗小球兼任图片中转站、语音备忘和 DDL 催命符；AI 负责把你的一串唠叨拆成带优先级的待办，**预览确认后才动手**
-| **[今晚吃什么](https://github.com/zhuangli410-commits/TonightWhatToEat)** <br>`React` `Android` | 解决选择困难：输入食材、身体状况和厨具，AI 帮你决定今晚吃什么。支持 7 家主流大模型，密钥自持，请求直连官方端点，**不经过任何中间服务器** |
-| **[metaphysics-toolkit](https://github.com/zhuangli410-commits/metaphysics-toolkit)** <br>`Python` | 八字排盘 + 六爻纳甲装卦，纯本地、零网络依赖。十神判定是手写的，大运顺逆排过三个已知命例回归校验。**工具只管把盘排对 —— 断命这事别赖工具** |
-| **[小玩意](https://github.com/zhuangli410-commits/-)** | 随手做的东西，不定期堆积。不成体系，但每个都跑得起来 |
+给自由设计师用的协作与履约平台。客户丢过来一句"帮我做个 logo"，接单 Agent 会追问范围、改几次、什么时候付钱，然后出一份能签的方案。后面每次确认都有记录。
 
----
+**道藏**
 
-## 🧰 工具箱
+把 35 卷竖排繁体古籍从扫描件做成能查的语料。三万多页，OCR 完还得重建阅读顺序、把异体字映射回简体、再走一遍人工复核。最后落在 SQLite 里用 FTS5 查。没做向量化，也不打算做。
 
-**语言**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+**人生副本**
 
-**构建与框架**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-![Metal](https://img.shields.io/badge/Metal-000000?style=flat-square&logo=apple&logoColor=white)
-
-**AI 与数据**
-![LLM API](https://img.shields.io/badge/LLM_API-412991?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square&logo=databricks&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite_FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![macOS Vision](https://img.shields.io/badge/macOS_Vision_OCR-000000?style=flat-square&logo=apple&logoColor=white)
-![PaddleOCR](https://img.shields.io/badge/PaddleOCR-0062B0?style=flat-square&logo=baidu&logoColor=white)
-![Agent](https://img.shields.io/badge/Agent_工作流-D4A24E?style=flat-square&logo=googlegemini&logoColor=white)
+把一个人的一生拆成能批量生产的镜头：剧本、角色母版、年龄参考、场景锚点、分镜提示、逐镜质检，一共 150 条提示词。主要是治 AI 生图里人物越画越不像的问题。
 
 ---
 
-## 🔢 手上的数字
-
-| 规模 | 数字 |
-| :-- | :-- |
-| 古籍语料 | **35 卷 · 31,115 页 · 约 500 万字 · 605 MB** |
-| 内容流水线 | **150 个镜头级提示词 · 5 套命例剧本** |
-| 知识库 | **30 个项目 · 29 张配图 · 37 页逐页 OCR** |
-| 知识检索 | **0 元 embedding 成本**（FTS5 + trigram 就够用） |
-
----
-
-## 🧠 怎么做事
+## 仓库
 
 | | |
 | :-- | :-- |
-| **产品判断** | 明确目标用户、核心痛点、最小闭环和边界取舍 —— 不从功能清单开始 |
-| **直接构建** | 读得懂英文 API 文档，也改得动 Python / JavaScript / TypeScript / Swift |
-| **验证交付** | 线上可访问、模拟器跑通、构建产物、真实样本 —— 用可复现的结果说话 |
-| **复盘迭代** | 每个项目都写了"关键取舍"和"当前边界"，**交代没做到的，比吹做过的值钱** |
+| [**闲着**](https://github.com/zhuangli410-commits/xianzhe) | 把当前应用的图标抠成有厚度的实体，丢到桌面上给它打光。蜡烛用着用着会烧完，太阳四分钟走完一天。Swift + Metal |
+| [**图片备忘站**](https://github.com/zhuangli410-commits/image-memo-board) | 截图有地方放了。一颗浮窗小球管着图片中转、语音备忘和 DDL 倒计时。AI 能把一段话拆成待办，但要你点了确认才写。Electron |
+| [**今晚吃什么**](https://github.com/zhuangli410-commits/TonightWhatToEat) | 治吃饭选择困难。报上食材、身体状况和厨具，AI 决定今晚吃什么。七家模型的 Key 自己填，请求直连官方端点。React + Capacitor |
+| [**metaphysics-toolkit**](https://github.com/zhuangli410-commits/metaphysics-toolkit) | 八字排盘和六爻装卦，纯本地不联网。十神逻辑自己写的，大运顺逆排过三个命例校对。工具只负责把盘排对，断命的事别赖它。Python |
+| [**小玩意**](https://github.com/zhuangli410-commits/-) | 实验完又不够开一个仓库的，都堆这儿 |
+
+---
+
+## 手边这些
+
+Python / TypeScript / JavaScript / Swift
+
+React / Node / Electron / Capacitor
+
+LLM API / RAG / SQLite FTS5 / macOS Vision OCR / PaddleOCR
+
+---
+
+## 想知道我做过什么，直接问它
+
+我参加工赋比赛时做了一个问答 Agent，叫 SG Agent。里面收的是项目案例和团队资料，它只答知识库里有据可查的内容，不知道的会说不知道。
+
+https://gongfu.youjixiezuo.top/#ask
 
 ---
 
 <div align="center">
-
-**一个人 + 一堆 Agent，能不能顶一支团队？这是我正在做的实验。**
-
-📮 [aktives@foxmail.com](mailto:aktives@foxmail.com) · 微信 `lzy1152414492` · [@ChateChange](https://t.me/ChateChange)
-
-<sub>FROM QUESTION TO WORKING PRODUCT · 2026</sub>
-
+<sub>FROM QUESTION TO WORKING PRODUCT</sub>
 </div>
