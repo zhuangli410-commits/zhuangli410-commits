@@ -1,44 +1,46 @@
-<div align="center">
 
-<img src="https://img.shields.io/badge/AI_PRODUCT_BUILDER-2026-D4A24E?style=for-the-badge" alt="AI Product Builder" />
 
-# 李卓扬 · Aktive
 
-**把模糊的问题，做成能运行的产品。**
 
-理工科训练让我习惯先拆系统再动手；AI 让我一个人也能跑完从需求到上线。
+#李卓扬 · 活跃
 
-[![作品集](https://img.shields.io/badge/完整作品集-在线访问-D4A24E?style=for-the-badge&logo=safari&logoColor=white)](https://li-zhuoyang-ai-product-builder.zhuangli410.chatgpt.site)
-[![Email](https://img.shields.io/badge/aktives%40foxmail.com-联系我-0969DA?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:aktives@foxmail.com)
-[![WeChat](https://img.shields.io/badge/lzy1152414492-微信-07C160?style=for-the-badge&logo=wechat&logoColor=white)](#)
+**大概是个人类**
 
-</div>
+
+[作品集](https://img.shields.io/badge/完整作品集-在线访问-D4A24E?style=for-the-badge&logo=safari&logoColor=white)(https://li-zhuoyang-ai-product-builder.zhuangli410.chatgpt.site)
+[][![邮箱](https://img.shields.io/badge/aktives%40foxmail.com-联系我-0969DA?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:aktives@foxmail.com)
+[![微信](https://img.shields.io/badge/lzy1152414492-微信-07C160?style=for-the-badge&logo=wechat&logoColor=white)](https://img.shields.io/badge/lzy1152414492-微信-07C160?style=for-the-badge&logo=wechat&logoColor=white) (#)
+
+
 
 ---
 
-## 🧭 现在在做什么
+##🧭 当前在进行什么工作
 
-**有迹 YOUJI** — 自由设计师的协作与履约平台。
+**有迹** — 自由设计师的协作与履约平台。
 用户说一句"帮我做个 logo"，AI 接单 Agent 会替他把范围、修改次数、付款节点问清楚，生成一份能签的合作方案，再留痕跟进。
-`AI Agent` · `履约证据链` · `小程序 / 公众号 / 小红书已上线`
+``AI代理` · `履约证据链` · `小程序 / 公众号 / 小红书已上线`
 
-**道藏** — 35 卷古籍，从扫描页到 Agent 可用的知识库。
+道藏 — 35卷古籍，从扫描页到Agent可用的知识库。
 竖排繁体 OCR → 阅读顺序重建 → 繁简映射与专名保护 → 人工复核队列，31,115 页 → 约 500 万字 → SQLite FTS5 检索。**零 embedding 成本。**
-`OCR` · `SQLite FTS5` · `本地 RAG`
+``OCR` · ``SQLite FTS5` · ``本地 RAG```
 
-**人生副本** — 把一个人的一生拆成可生产的工作流。
+**人生副本** —— 将一个人的一生拆分成可执行的工作流。
 剧本 → 角色母版 → 年龄参考 → 场景锚点 → 镜头提示 → 逐镜质检，150 个镜头级提示词，专治 AI 影像里最难缠的人物漂移。
-`Prompt 工程` · `批量生图` · `质检交接`
+``提示工程` · ``批量生成图片` · ``质量检查交接`"
 
 ---
 
-## 📦 仓库
+📦 仓库
 
-| 仓库 | 它是什么 |
+|仓库|它是什么|
 | :-- | :-- |
-| **[闲着 · Xianzhe](https://github.com/zhuangli410-commits/xianzhe)** <br>`Swift` `Metal` | 把当前应用的图标抠成有厚度的实体，然后给它打光。手电筒和蜡烛是**真几何模型**不是 emoji，蜡烛会烧完，太阳四分钟东升西落一次 |
-| **[图片备忘站](https://github.com/zhuangli410-commits/image-memo-board)** <br>`Electron` `macOS` | 截图黑洞。浮窗小球兼任图片中转站、语音备忘和 DDL 催命符；AI 负责把你的一串唠叨拆成带优先级的待办，**预览确认后才动手** |
-| **[今晚吃什么](https://github.com/zhuangli410-commits/TonightWhatToEat)** <br>`React` `Android` | 治选择困难：报上食材、身体状况和厨具，AI 替你决定今晚吃什么。7 家主流大模型随你挑，Key 攥在自己手里、请求直连官方端点，**不经过任何中间服务器** |
+| **[闲着 · Xianzhe](https://github.com/zhuangli410-commits/xianzhe)** <br>`Swift` `Metal` | 将当前应用程序的图标处理成具有厚度的实体模型，然后为其添加光照效果。手电筒和蜡烛是**真实的几何模型**，而非表情符号，蜡烛会燃烧殆尽，太阳每四分钟东升西落一次 |
+[图片备忘站](https://github.com/zhuangli410-commits/image-memo-board)  
+Electron | macOS  
+
+截图黑洞。浮窗小球兼任图片中转站、语音备忘和 DDL 催命符；AI 负责把你的一串唠叨拆成带优先级的待办，**预览确认后才动手**
+| **[今晚吃什么](https://github.com/zhuangli410-commits/TonightWhatToEat)** <br>`React` `Android` | 解决选择困难：输入食材、身体状况和厨具，AI 帮你决定今晚吃什么。支持 7 家主流大模型，密钥自持，请求直连官方端点，**不经过任何中间服务器** |
 | **[metaphysics-toolkit](https://github.com/zhuangli410-commits/metaphysics-toolkit)** <br>`Python` | 八字排盘 + 六爻纳甲装卦，纯本地、零网络依赖。十神判定是手写的，大运顺逆排过三个已知命例回归校验。**工具只管把盘排对 —— 断命这事别赖工具** |
 | **[小玩意](https://github.com/zhuangli410-commits/-)** | 随手做的东西，不定期堆积。不成体系，但每个都跑得起来 |
 
